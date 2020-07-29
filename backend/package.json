@@ -1,0 +1,15 @@
+{
+  "name": "dron_monserrat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dron.js",
+  "scripts": {
+    "test": "jest",
+    "start": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
