@@ -34,7 +34,7 @@ function EditModal(props) {
   return (
     <div>
       <Dialog open onClose={handleClose} aria-labelledby="form-dialog-title">
-        <DialogTitle id="form-dialog-title">Add Card</DialogTitle>
+        <DialogTitle id="form-dialog-title">Edit Card</DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
@@ -75,7 +75,7 @@ function EditModal(props) {
             Cancel
           </Button>
           <Button onClick={handleSubmit} color="primary">
-            Edit Card
+            Done
           </Button>
         </DialogActions>
       </Dialog>
